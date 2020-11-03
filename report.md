@@ -129,27 +129,19 @@ Draw the term-document incidence matrix for this document collection.
 Draw the inverted index representation for this collection.
 
 [Answer 1]
-               . Doc1 Doc2 Doc3 Doc4
 
-1       approach  0  0  1  0
-
-2   breakthrough  1  0  0  0
-
-3           drug  1  1  0  0
-
-4            for  1  0  1  1
-
-5          hopes  0  0  0  1
-
-6            new  0  1  1  1
-
-7             of  0  0  1  0
-
-8       patients  0  0  0  1
-
-9  schizophrenia  1  1  1  1
-
-10     treatment  0  0  1  0
+|    |               | Doc1 | Doc2 | Doc3 | Doc4 |
+|----|---------------|------|------|------|------|
+| 1  | approach      | 0    | 0    | 1    | 0    |
+| 2  | breakthrough  | 1    | 0    | 0    | 0    |
+| 3  | drug          | 1    | 1    | 0    | 0    |
+| 4  | for           | 1    | 0    | 1    | 1    |
+| 5  | hopes         | 0    | 0    | 0    | 1    |
+| 6  | new           | 0    | 1    | 1    | 1    |
+| 7  | of            | 0    | 0    | 1    | 0    |
+| 8  | patients      | 0    | 0    | 0    | 1    |
+| 9  | schizophrenia | 1    | 1    | 1    | 1    |
+| 10 | treatment     | 0    | 0    | 1    | 0    |
 
  
 
